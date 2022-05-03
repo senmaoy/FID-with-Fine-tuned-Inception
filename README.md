@@ -3,17 +3,17 @@ As the original tensorflow code is out of data, it's a bit troublesome to run th
 
 Hence, we provide a new version of code to caculate Inception Score and FID on CUB and OXford with original weight for fair of comparison.
 
-remember to download inception_finetuned_models from StackGAN https://github.com/hanzhanggit/StackGAN-v2
+### First download inception_finetuned_models from StackGAN https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw
 
-requirement:
+
 
 ### Requirements
 - python 3.8
 - Tensorflow 2.7.0+cu113
 - scikit-image
 
-Usage:
+### Usage:
 
-1.Adapate the file path to the location of generated images and then
+1.Change the file path to the location of generated images
 
-2.just run python inceptionscore_dir_cub.py
+2.Just run python inceptionscore_dir_cub.py
