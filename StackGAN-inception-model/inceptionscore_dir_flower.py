@@ -52,15 +52,9 @@ FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_string('checkpoint_dir',
                            '../inception_finetuned_models/flowers_valid299/model.ckpt',
                            """Path where to read model checkpoints.""")
-#'/home/yesenmao/code/StackGAN-Pytorch/output/coco_stageI_datt_2017_12_21_11_48_04/Model/netG_epoch_120'
-#'/disk3/yesenmao/composition/DeAttention/results_in2/cub_char_e2e_finetune_200_net_G',
-#/disk3/yesenmao/composition/DeAttention/results_in2/cub_int_cls128_char2_150_net_G
-#'/disk2/yesenmao/results_in2/cub_int_cls_hinge_450_net_G'
+
 tf.app.flags.DEFINE_string('image_folder', 
-                                #'/home/youzeng/code/DF-GAN-rnn1/test/valid/single/',
-                                #'/home/yesenmao/disk/code/DF-GAN-rnn1/test/valid/single/',
                                 '/home/yesenmao/disk/dataset/flower/flower/jpg2/train',
-                                #'/home/yesenmao/disk/code/deep_96_910/valid/single/',
 							"""Path where to load the images """)
 
 tf.app.flags.DEFINE_integer('num_classes', 20,      # 20 for flowers
