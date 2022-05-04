@@ -11,7 +11,7 @@ Hence, we provide a new version of code to caculate Inception Score and FID on C
 - python 3.8
 - Tensorflow 2.7.0+cu113
 - scikit-image
-
+- pillow
 ### Usage:
 
 1.Change the file path to the location of generated images
