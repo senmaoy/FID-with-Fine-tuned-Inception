@@ -54,7 +54,7 @@ tf.app.flags.DEFINE_string('checkpoint_dir',
                            """Path where to read model checkpoints.""")
 
 tf.app.flags.DEFINE_string('image_folder', 
-                                '/home/yesenmao/disk/code/DF-GAN-big/test/valid/single',
+                                '/home/yesenmao/disk/code/RAT-GAN/test/valid/single',
                                 							"""Path where to load the images """)
 
 tf.app.flags.DEFINE_integer('num_classes', 50,      # 20 for flowers
