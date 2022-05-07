@@ -17,3 +17,6 @@ Hence, we provide a new version of code to caculate Inception Score and FID on C
 1.Change the file path to the location of generated images
 
 2.Just run python inceptionscore_dir_cub.py
+
+**Reference**
+- [Recurrent-Affine-Transformation-for-Text-to-image-Synthesis](https://arxiv.org/abs/2204.10482) [[code]](https://github.com/senmaoy/Recurrent-Affine-Transformation-for-Text-to-image-Synthesis.git)
