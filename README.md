@@ -3,6 +3,8 @@ As the original tensorflow code is out of data, it's a bit troublesome to run th
 
 Hence, we provide a new version of code to caculate Inception Score and FID on CUB and OXford with original weight for fair of comparison.
 
+### Note that the code will produce higher FID score than using weight without finetuning
+For example, RAT-GAN scores 13.91 with this code. But using weight without finetuning, RAT-GAN scores 10.2
 ### First download inception_finetuned_models from StackGAN https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw
 
 
