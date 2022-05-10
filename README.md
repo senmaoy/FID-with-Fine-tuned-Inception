@@ -6,6 +6,8 @@ Hence, we provide a new version of code to caculate Inception Score and FID on C
 ### Note that the code will produce higher FID score than using weight without finetuning
 For example, RAT-GAN scores 13.91 with this code. But using inception weight without finetuning , RAT-GAN scores 10.21.
 
+This is because stackGAN fine-tuned the inception weights on CUB, which makes FID to be more aware of the difference of bird images. According to my experience, when the FID grows smaller, this code better distinguishes the image quality.
+
 ### First download inception_finetuned_models from StackGAN https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw
 
 
