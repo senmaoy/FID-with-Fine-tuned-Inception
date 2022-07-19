@@ -19,7 +19,9 @@ This is because stackGAN fine-tuned the inception weights on CUB, which makes FI
 ###  download inception_finetuned_models from [StackGAN](https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw)
 
 1.Change the file path to the location of generated images
+
 2.Change the modl path to the location of fine-tuned inception models
+
 3.Just run python inceptionscore_dir_cub.py
 
 **Reference**
