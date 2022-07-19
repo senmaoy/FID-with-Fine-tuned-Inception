@@ -8,8 +8,7 @@ For example, RAT-GAN scores 13.91 with this code. But using inception weight wit
 
 This is because stackGAN fine-tuned the inception weights on CUB, which makes FID to be more aware of the difference of bird images. According to my experience, when the FID grows smaller, this code better distinguishes the image quality.
 
-### First download inception_finetuned_models from [StackGAN] (https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw)
-
+### First download inception_finetuned_models from [StackGAN]([https://drive.google.com/open?id=1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ](https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs/view?resourcekey=0-gBxxw4fU6ikmNtkfFSQALw))
 
 
 ### Requirements
